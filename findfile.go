@@ -25,5 +25,5 @@ func main() {
 		}
 		quit <- 0
 	}()
-	fibonacci(c, quit)
+	//fibonacci(c, quit)
 }
