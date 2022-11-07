@@ -21,6 +21,7 @@ func main() {
 	go func() {
 		for i := 0; i < 10; i++ {
 			fmt.Println(<-c)
+			fmt.Println("--")
 		}
 		quit <- 0
 	}()
